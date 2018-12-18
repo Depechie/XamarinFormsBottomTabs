@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                        x:Class="BottomTabBarTest.Tab1Page">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Margin="10,0,10,0">
+            <Button Text="Hide badge" Clicked="OnHideClicked" />
+            <Button Text="Increment badge" Clicked="OnIncrementClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

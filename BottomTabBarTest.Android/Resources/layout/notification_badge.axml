@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="18dp"
+             android:layout_height="18dp">
+    <TextView android:id="@+id/notificationsbadge"
+              android:layout_width="18dp"
+              android:layout_height="18dp"
+              android:layout_gravity="top|right"
+              android:layout_marginRight="15dp"
+              android:layout_marginTop="5dp"
+              android:background="@drawable/notificationsbadgebackground"
+              android:gravity="center"
+              android:textColor="@android:color/white"
+              android:textSize="11sp" />
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<local:BottomTabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+                        xmlns:local="clr-namespace:BottomTabBarTest" 
+                        xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" 
+                        x:Class="BottomTabBarTest.MainPage"
+                        Labels="false"
+                        android:TabbedPage.ToolbarPlacement="Bottom" 
+                        android:TabbedPage.IsSwipePagingEnabled="false">
+    <local:Tab1Page Icon="monkeyicon.png" Title="Tab 1" />
+    <local:Tab2Page Icon="monkeyicon.png" Title="Tab 2" />
+    <local:Tab2Page Icon="monkeyicon.png" Title="Tab 3" />
+    <local:Tab2Page Icon="monkeyicon.png" Title="Tab 4" />
+    <local:Tab2Page Icon="monkeyicon.png" Title="Tab 5" />
+</local:BottomTabbedPage>
